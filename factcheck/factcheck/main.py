@@ -3,7 +3,7 @@ from factcheck.factcheck.wolfram import checkfact
 
 
 def main():
-    webpagecheck("gazeta.pl")
+    webpagecheck("www.aszdziennik.pl/news12345")
     checkfact("What is the meaning of life?","42")
     return None
 

@@ -1,6 +1,7 @@
 import json  # Gets list of webpages and their type - from opensource.co
 
-with open('opensource_co.json', encoding='utf-8') as data_file:
+path = 'C:\\Users\jasiek\Google Drive\AGH\Semestr IV\Python\zad3\\factcheck\\factcheck\opensource_co.json'
+with open(path, encoding='utf-8') as data_file:
     data = json.loads(data_file.read())
 
 
@@ -43,9 +44,12 @@ def webpagecheck(url):
     b = checkfaketype(url)
     if (b == -1):
         print("Source is unknown, however probably reliable.")
+        return True
     if (b == 1):
         print("News from this source are probably fake!")
+        return False
     if (b == 0):
         print("News from this source are reliable!")
+        return True
     return None
 

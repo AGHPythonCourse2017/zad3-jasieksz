@@ -17,8 +17,9 @@ def checkfact(question, answer):
     result = askwolfram(question)
     if answer in result:
         print("Your answer is correct, good job!")
+        return True
     else:
         print("You are wrong, sorry.")
         print("Correct answer is : ")
         print(result)
-    return None
+        return False
