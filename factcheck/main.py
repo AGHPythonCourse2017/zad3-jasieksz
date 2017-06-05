@@ -1,5 +1,5 @@
-from factcheck.factcheck.opensrc import webpagecheck
-from factcheck.factcheck.wolfram import checkfact
+from factcheck.opensrc import webpagecheck
+from factcheck.wolfram import checkfact
 
 
 def main():
