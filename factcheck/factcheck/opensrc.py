@@ -29,9 +29,7 @@ def checkfaketype(url):
         t1 = data[url]['type']
         t2 = data[url]['2nd type']
         t3 = data[url]['3rd type']
-        if ("fake" in t1 or
-                    "fake" in t2 or
-                    "fake" in t3):
+        if ("fake" in t1 or "fake" in t2 or "fake" in t3):
             return 1
         else:
             return 0
@@ -52,4 +50,3 @@ def webpagecheck(url):
         print("News from this source are reliable!")
         return True
     return None
-

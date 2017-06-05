@@ -2,6 +2,7 @@ import wolframalpha
 
 client = wolframalpha.Client('P7UPQ6-JPXYQKL84U')  # P7UPQ6-JPXYQKL84U
 
+
 # Get query
 def askwolfram(question):
     res = client.query(question)
