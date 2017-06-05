@@ -1,6 +1,6 @@
 import json  # Gets list of webpages and their type - from opensource.co
 
-path = 'C:\\Users\jasiek\Google Drive\AGH\Semestr IV\Python\zad3\\factcheck\\factcheck\opensource_co.json'
+path = 'C:\\Users\jasiek\Google Drive\AGH\Semestr IV\Python\zad3\\factcheck\opensource_co.json'
 with open(path, encoding='utf-8') as data_file:
     data = json.loads(data_file.read())
 
