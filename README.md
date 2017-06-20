@@ -39,20 +39,11 @@ Installation / Usage
 
 To install use pip:
 
-    $ pip install factcheck
+    $ pip install git+https://github.com/AGHPythonCourse2017/zad3-jasieksz.git
 
 
 Or clone the repo:
 
-    $ git clone https://github.com/jasieksz/factcheck.git
+    $ git clone https://github.com/AGHPythonCourse2017/zad3-jasieksz.git
     $ python setup.py install
     
-Contributing
-------------
-
-TBD
-
-Example
--------
-
-TBD
